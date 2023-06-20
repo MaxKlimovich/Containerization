@@ -44,7 +44,7 @@ cp /lib/x86_64-linux-gnu/libpcre2-8.so.0 lib - копируем зависимо
 
 sudo chroot ~/GB/ - создаем корень;
 
-![Homework1_1.png](..%2F..%2F..%2F..%2F..%2FDownloads%2FHomework1_1.png)
+![Homework1_1.png](Screen%2FHomework1_1.png)
 
 ip a сетевое пространство имен.
 
@@ -54,7 +54,7 @@ sudo ip netns list - просмотр пространства имен;
 
 sudo ip netns exec testns bash - изолируем сеть;
 
-![Homework1_2.png](..%2F..%2F..%2F..%2F..%2FDownloads%2FHomework1_2.png)
+![Homework1_2.png](Screen%2FHomework1_2.png)
 
 sudo unshare --net --pid --fork --mount-proc /bin/bash - изоляция сети, процессов и файловой системы;
 
@@ -68,4 +68,4 @@ unshare утилита которая позволяет разграничив�
 
 --mount-proc — разграничивает процессы ps aux;
 
-![Homework1_3.png](..%2F..%2F..%2F..%2F..%2FDownloads%2FHomework1_3.png)
+![Homework1_3.png](Screen%2FHomework1_3.png)
